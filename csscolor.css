@@ -1,0 +1,30 @@
+*{
+    background-color:aliceblue;
+}
+.heading h1{
+    background-color:rgb(138, 235, 238);
+    color: rgb(238, 25, 174);
+    padding: 40px;
+    width:200px;
+    height: 20px;
+    box-shadow: 8px 9px 6px rgb(55, 87, 104);
+}
+.colorname h2 {
+    color: rgb(97, 190, 202);
+}
+.rgb h3 {
+    color:rgb(134, 221, 77);
+    background-color: rgb(184, 59, 90);
+    width: 200px;
+    height: 40px;
+}
+.hex h4{
+    color:rgba(71, 107, 226, 0.6);
+}
+.hsl h5{
+    color:hsl(73, 61%, 71%);
+    background-color: rgb(8, 53, 136);
+    padding: 20px;
+    width: 200px;
+    height: 10px;
+}

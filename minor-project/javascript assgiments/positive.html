@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positive or Negative.</title>
+</head>
+<body>
+    <script>
+        
+    </script>
+</body>
+</html>
+let ages = prompt("Enter ages:");
+let kms = prompt("Enter kilometers traveled :");
+let output = "Bus Fare Calculation Results";
+    for (let i = 0; i < ages; i++) {
+        let age = ages[i];
+        let km = kms[i];
+        
+    }
+    document.write(age)
+    let farePerKm;
+    if (age < 5) {
+        return "Free ride";
+    } else if (age >= 5 && age <= 18) {
+        farePerKm = 5;
+    } else if (age > 18 && age <= 60) {
+        farePerKm = 6;
+    } else if (age > 60) {
+        farePerKm = 7;
+    } else {
+        return "Invalid age";
+    }
+
+let totalFare = farePerKm * km;
+    document.write(totalFare)

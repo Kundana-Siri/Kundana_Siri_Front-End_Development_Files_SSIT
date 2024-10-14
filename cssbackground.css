@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(213, 236, 225);
+    background-image: url(d:\ntr.jfif);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-attachment:scroll;
+
+    
+}
+.heading h1{
+     background-color: rgb(225, 245, 179) ;
+     color:rgb(255, 0, 234);
+     padding: 20px;
+     width: 200px;
+     height: 40px;
+    
+}
+.city1 h2{
+    
+    color:rgb(122, 233, 150);
+    
+}
+.city1 p{
+    color:rgb(153, 30, 210);
+    
+    
+    
+}
+.city2 h2{
+    background-color:rgb(211, 202, 232) ;
+    color:rgb(128, 0, 38);
+    padding: 20px;
+    width: 80px;
+    height: 30px;
+    
+}
+.city2 p{
+    color:rgb(150, 35, 42);
+    
+    
+}
+.city3 h2{
+    color:cornflowerblue;
+    
+}
+.city3 p{
+    color:cadetblue;
+    
+}
+.city4 h2{
+    color:hsl(230,67%,67%);
+    background-color:rgb(232, 213, 202) ;
+    padding: 20px;
+    width: 130px;
+    height: 30px;
+    
+
+}
+.city4 p{
+    color:hsl(292, 88%, 63%);
+    
+    
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Fare Calculator (Age and Distance)</title>
+</head>
+<body>
+    <script>
+       let numUsers = prompt("Enter the number of users: ");
+  let totalKilometers = prompt("Enter the total kilometers traveled: ");
+
+  let totalPrice = 0;
+
+  for (let i = 0; i < numUsers; i++) {
+    let age = prompt(`Enter the age of user ${i + 1}: `);
+    let baseFare = 0;
+
+    if (age <= 5) {
+      baseFare = 5; 
+    } else if (age <= 12) {
+      baseFare = 15; 
+    } else if (age <= 64) {
+      baseFare = 20; 
+    } else {
+      baseFare = 0; 
+    }
+
+    let farePerKilometer = baseFare * 10; 
+    let userFare = farePerKilometer * totalKilometers;
+
+    totalPrice += userFare;
+    document.write(totalPrice);
+  }
+  </script>
+
+</body>
+</html>

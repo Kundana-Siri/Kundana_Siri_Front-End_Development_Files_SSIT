@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+    <html>
+     <head>
+        <title>Results Portal</title>
+        <style>
+            body {
+                font: sans-serif;
+                text-align: center;
+            }
+
+            header {
+                background-color: #f0f0f0;
+                padding: 20px;
+            }
+
+            .search-section {
+                margin: 20px;
+            }
+
+            .result-section {
+                display: grid;
+                border: 1px solid #ccc;
+                padding: 20px;
+                margin: 20px;
+                place-content: center;
+            }
+
+            table{
+                
+                border-collapse: collapse;
+            }
+            th,td{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Results Portal</h1>
+        </header>
+
+        <section class="search-section">
+            <label for="roll-number">Roll Number:</label>
+            <input type="text" id="roll-number" name="roll-number" placeholder="22ne1a1201">
+            <button type="submit">Check Result</button>
+        </section>
+
+        <section class="result-section">
+            <h2>Result Details</h2>
+            <table>
+                <tr>
+                    <th>Subject code</th>
+                    <th>Subject Name</th>
+                    <th>Internals</th>
+                    <th>Grade</th>
+                    <th>Credits</th>
+                </tr>
+                <tr>
+                    <td>R2022054</td>
+                    <td>Java Programming</td>
+                    <td>28</td>
+                    <td>D</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>R2022055</td>
+                    <td>Managerial Economics and Financialaccount</td>
+                    <td>26</td>
+                    <td>C</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>R2022121</td>
+                    <td>Statistics with R</td>
+                    <td>25</td>
+                    <td>C</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>R2022122</td>
+                    <td>Principles of software engineering</td>
+                    <td>23</td>
+                    <td>D</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>R2022123</td>
+                    <td>Automata theory and compiler design</td>
+                    <td>25</td>
+                    <td>B</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>R2022124</td>
+                    <td>UML lab</td>
+                    <td>14</td>
+                    <td>A+</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>R2022125</td>
+                    <td>FOSS lab</td>
+                    <td>14</td>
+                    <td>A+</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>R2022126</td>
+                    <td>Java programming  lab</td>
+                    <td>14</td>
+                    <td>A+</td>
+                    <td>1.5</td>
+                </tr>
+                <tr>
+                    <td>R2022128</td>
+                    <td>SOC lab</td>
+                    <td>0</td>
+                    <td>A+</td>
+                    <td>2</td>
+                </tr>
+            </table>
+
+        </section>
+
+        <footer>
+            <p>&copy; TEC</p>
+        </footer>
+    </body>
+
+    </html>

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.restaurant-cards{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.restaurant-card-1{
+    width: 290px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 40px rgba(128,128,128,0.5);
+    transition: transform 0.3s;
+}
+.restaurant-card-2{
+    width: 290px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 40px rgba(128,128,128,0.5);
+    transition: transform 0.3s;
+}
+.restaurant-card-3{
+    width: 290px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 40px rgba(128,128,128,0.5);
+    transition: transform 0.3s;
+}
+.restaurant-card-4{
+    width: 290px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 40px rgba(128,128,128,0.5);
+    transition: transform 0.3s;
+}
+.restaurant-card-1:hover{
+    transform: scale(1.1);
+    background-color: #98bce6;
+    color: #06155c;
+}
+.restaurant-card-2:hover{
+    transform: scale(1.1);
+    background-color: #eea2a2;
+    color: #660606;
+}
+.restaurant-card-3:hover{
+    transform: scale(1.1);
+    background-color: #9ad682;
+    color: #044213;
+}
+.restaurant-card-4:hover{
+    transform: scale(1.1);
+    background-color: #d6a182;
+    color: #472504;
+}
+.restaurant-img{
+    position: relative;
+}
+.restaurant-img img{
+    width: 100%;
+    height: 200px;
+}
+.discount{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(207, 48, 48, 0.9);
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.restaurant-details{
+    padding: 12px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.restaurant-name{
+    font-weight: 800;
+    font-size: 18px;
+}
+.rating{
+    color: #ffa500;
+}
+@media screen and (max-width:300px) {
+    span.psw{
+        display: block;
+        float: none;
+    }
+}

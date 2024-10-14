@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmatic Operations</title>
+</head>
+<body>
+    <h4>Arithmatic opertations</h4>
+<script>
+let num1 = prompt("Enter the first number: ")
+let num2 = prompt("Enter the second number: ")
+let operator = prompt("Enter the operator (+, -, *, /, %): ");
+if (operator === "+") {
+    console.log(num1+num2)
+} else if (operator === "-") {
+    result = num1 - num2;
+    document.write(result)
+} else if (operator === "*") {
+    result = num1 * num2;
+    document.write(result)
+} else if (operator === "/") {
+    if (num2 !== 0) {
+        result = num1 / num2;
+        document.write(result)
+    } else {
+        result = "Error! Division by zero.";
+        document.write(result)
+    }
+} else if (operator === "%") {
+    if (num2 !== 0) {
+        result = num1 % num2;
+        document.write(result)
+    } else {
+        result = "Error! Division by zero.";
+        document.write(result)
+    }
+} else {
+    result = "Invalid operator!";
+}
+</script>
+</body>
+</html>

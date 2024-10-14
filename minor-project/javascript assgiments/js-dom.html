@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js-DOM</title>
+    <style>
+        .first-class{
+            color: red;
+        }
+        .first-id{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="first-class">My name is siri</h1>
+    <h2 id="first-id">I'm a student at TEC</h2>
+    <script>
+        document.getElementsByClassName('first-class')[0].innerHTML = "My name is Kundana Siri";
+
+        let obj2 = document.getElementById('first-id');
+        obj2.innerHTML = "My Name is Kundana Siri";
+        obj2.remove();
+
+        let newElement  = document.createElement('div');
+        newElement.textContent = 'NewElement';
+        document.body.appendChild(newElement);
+    </script>
+</body>
+</html>
